@@ -10,5 +10,6 @@ class QuestionTypeViewModelFactory(private val database: QuestionTypeDatabaseDao
             return QuestionTypeViewModel(database) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class")
+
     }
 }
